@@ -1,34 +1,34 @@
 # Clock-ClockProv
 Collection of Google Maps API Web Services for Laravel
 
-#Installation
-`
-composer require clock/ClockProv:dev:master
-`
-#Configuration
+# Installation
+
+`composer require clock/ClockProv:dev:master`
+
+# Configuration
 
 Register package service provider and facade in 'config/app.php'
-`
-'providers' => [
+
+`'providers' => [
     ...
     'Clock\ClockProv\ClockProvider::class,',
-]
+]`
 
-'aliases' => [
+`'aliases' => [
     ...
     'Clock' =>Clock\ClockProv\ClockFacdecs::class,
-]
-`
-#publish
+]`
+
+# publish
 
 After then ` php artisan vendor:publish `
 
-#Usage
+# Usage
 
-#Clock
-`
-Clock::clock();
-`
-#Map
-`
-Clock::map();
+# Clock
+
+` Clock::clock(); `
+
+# Map
+
+` Clock::map(); `
