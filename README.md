@@ -9,15 +9,13 @@ Collection of Google Maps API Web Services for Laravel
 
 Register package service provider and facade in 'config/app.php'
 
-`'providers' => [
-    ...
-    'Clock\ClockProv\ClockProvider::class,',
-]`
+providers
 
-`'aliases' => [
-    ...
+    'Clock\ClockProv\ClockProvider::class,'
+
+'aliases'
+
     'Clock' =>Clock\ClockProv\ClockFacdecs::class,
-]`
 
 # publish
 
