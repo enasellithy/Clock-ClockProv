@@ -3,7 +3,7 @@ Collection of Google Maps API Web Services for Laravel
 
 # Installation
 
-`composer require clock/ClockProv:dev:master`
+`composer require clock/ClockProv:dev-master`
 
 # Configuration
 
@@ -15,7 +15,7 @@ providers
 
 'aliases'
 
-    'Clock' =>Clock\ClockProv\ClockFacdecs::class,
+    'Clock' => Clock\ClockProv\ClockFacdecs::class,
 
 # publish
 
