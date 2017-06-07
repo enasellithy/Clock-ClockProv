@@ -1,0 +1,25 @@
+{
+	"name": "Clock/ClockProv",
+	"description": "Collection of Google Maps API Web Services for Laravel",
+    "type":"package",
+    "license":"MIT",
+    "version":"1.0",
+    "keywords":["laravel","map","api google"],
+    "authors":[
+    		{
+    			"name":"Enas Ellithy"
+    			"email":"enas9022@yahoo.com",
+    			"homepage":"https://github.com/enasellithy",
+    			"role":"Developer"
+    		}
+    ],
+    "require":{
+    	"php":">= 5.9",
+    },
+    "autoload":{
+    	"psr-4":{
+    		"Clock\\ClockProv\\":"src/"
+    	}
+    },
+    "minimum-stability":"dev",
+}
